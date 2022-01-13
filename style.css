@@ -2,34 +2,100 @@
     margin: 0px;
 }
 
-
 body {
     display: flex;
     flex-direction: column;
     padding: 0px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
 
 .header {
     background-color: #1f2937;
     color: rgb(228, 228, 228);
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
+.top-and-head {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.top {
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-right {
+    margin-left: auto;
+}
+
+.top-link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+
+.head{
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head-left {
+    border: 2px dotted green;
+    height: 150px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hl-1 {
+    font-size: xx-large;
+}
+.hl-3b {
+    background-color: rgb(0, 132, 255);
+}
+
+.head-right {
+    border: 2px dotted green;
+    height: 150px;
+    flex: 1;
+    background-color: rgba(248, 248, 248, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
 
 .content {
     background-color: white;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
 
 .quote {
     background-color: #e5e7eb;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
 
 .sign-up {
     background-color: white;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
 
 .footer {
     background-color: #1f2937;
